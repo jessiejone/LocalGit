@@ -1,7 +1,7 @@
 #! /usr/bin/env python
-print "sunck is a good man"
+print ("sunck is a good man")
 #multiple messages
-print "Hello World", "I am happy"
+print ("Hello World", "I am happy")
 '''
 12345
 57890
@@ -10,18 +10,18 @@ print "Hello World", "I am happy"
 abcdef
 """
 print (18)
-print 10 + 8
-print "10 + 8 =", 18
+print (10 + 8)
+print ("10 + 8 =", 18)
 
 #input get var , age is a string
 age=input()
-print "age=",age
+print ("age=",age)
 import keyword
-print keyword.kwlist
+print (keyword.kwlist)
 
 num1 = int(input ("please input a number"))
 num2 = int (input ("please input a number"))
-print "num1 + num2 = ", num1 + num2
+print ("num1 + num2 = ", num1 + num2)
 
 #var type
 print (type(num1))
@@ -32,10 +32,10 @@ num6, num7 = 6, 7
 
 f1 = 1.1
 f2 = 2.1
-print f1 + f2
+print (f1 + f2)
 
 #var convert
-print (float (1)
+print (float (1))
 print (int ("-123"))
 a1 = -10
 a2 = abs (a1)
@@ -65,10 +65,10 @@ random.randrange(1,100,2)
 random.random()
 
 list = [1,2,3,4,5]
-print list
+print (list)
 #[1, 2, 3, 4, 5]
- random.shuffle(list)
-print list
+random.shuffle(list)
+print (list)
 #[5, 4, 1, 2, 3]
 random.uniform(3,9)
 #7.946455218389511 real value between 3 and 9
