@@ -53,3 +53,20 @@ print ("num = %d, str12 = %s, f1 = %.3f\n" % (num, str12, f1))
 #eval change a string to an expression
 print (eval("12+5"))
 
+#len(str) return the length of string (charater numbers)
+print (len("Hello World!"))
+
+#lower() make string lower case upper() upper case
+#swapcase make the charaters to the opposite uper or lower cases.
+#capitalize() capatize the first character
+#title() capatize first charater of every word
+str13 = "Hello World!"
+str14 = str13.lower()
+print (str14)
+#center(width, fillchar)
+str15 = "Hello World"
+print (str15.center(30, '*'))
+#*********Hello World**********
+#count(string[,start][,end])
+str16 = "Tomorrow is nother day"
+print (str16.count('is'))
